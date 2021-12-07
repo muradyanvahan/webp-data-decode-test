@@ -1,0 +1,24 @@
+PODS:
+  - libwebp (1.2.1):
+    - libwebp/demux (= 1.2.1)
+    - libwebp/mux (= 1.2.1)
+    - libwebp/webp (= 1.2.1)
+  - libwebp/demux (1.2.1):
+    - libwebp/webp
+  - libwebp/mux (1.2.1):
+    - libwebp/demux
+  - libwebp/webp (1.2.1)
+
+DEPENDENCIES:
+  - libwebp (= 1.2.1)
+
+SPEC REPOS:
+  trunk:
+    - libwebp
+
+SPEC CHECKSUMS:
+  libwebp: 98a37e597e40bfdb4c911fc98f2c53d0b12d05fc
+
+PODFILE CHECKSUM: 35183a968bfa51493b4a518583b04e14ad47d6fb
+
+COCOAPODS: 1.11.2

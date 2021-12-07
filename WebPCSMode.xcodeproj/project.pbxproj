@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		78C7B63828C7E6B5FCAE432D /* libPods-WebPCSMode.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B40EA7B4B3A31D1888EAB7A7 /* libPods-WebPCSMode.a */; };
 		9C42412D275F658D00822456 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C42412C275F658D00822456 /* AppDelegate.m */; };
 		9C424130275F658D00822456 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C42412F275F658D00822456 /* SceneDelegate.m */; };
 		9C424133275F658D00822456 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C424132275F658D00822456 /* ViewController.m */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2A7F010C29DF0F21DA4D6039 /* Pods-WebPCSMode.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WebPCSMode.debug.xcconfig"; path = "Target Support Files/Pods-WebPCSMode/Pods-WebPCSMode.debug.xcconfig"; sourceTree = "<group>"; };
 		9C424128275F658D00822456 /* WebPCSMode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WebPCSMode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C42412B275F658D00822456 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9C42412C275F658D00822456 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -29,6 +31,9 @@
 		9C42413A275F658E00822456 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9C42413C275F658E00822456 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9C42413D275F658E00822456 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9C424145275F66AC00822456 /* 111.webp */ = {isa = PBXFileReference; lastKnownFileType = file; path = 111.webp; sourceTree = "<group>"; };
+		B40EA7B4B3A31D1888EAB7A7 /* libPods-WebPCSMode.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WebPCSMode.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F24B621A49B4765B89BA3A54 /* Pods-WebPCSMode.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WebPCSMode.release.xcconfig"; path = "Target Support Files/Pods-WebPCSMode/Pods-WebPCSMode.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +41,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				78C7B63828C7E6B5FCAE432D /* libPods-WebPCSMode.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -47,6 +53,8 @@
 			children = (
 				9C42412A275F658D00822456 /* WebPCSMode */,
 				9C424129275F658D00822456 /* Products */,
+				B1693E30DA00CE79EC578A38 /* Pods */,
+				C0A2FCC185DD46FEBAFAD651 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -61,6 +69,7 @@
 		9C42412A275F658D00822456 /* WebPCSMode */ = {
 			isa = PBXGroup;
 			children = (
+				9C424144275F667600822456 /* Resources */,
 				9C42412B275F658D00822456 /* AppDelegate.h */,
 				9C42412C275F658D00822456 /* AppDelegate.m */,
 				9C42412E275F658D00822456 /* SceneDelegate.h */,
@@ -76,6 +85,31 @@
 			path = WebPCSMode;
 			sourceTree = "<group>";
 		};
+		9C424144275F667600822456 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9C424145275F66AC00822456 /* 111.webp */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		B1693E30DA00CE79EC578A38 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2A7F010C29DF0F21DA4D6039 /* Pods-WebPCSMode.debug.xcconfig */,
+				F24B621A49B4765B89BA3A54 /* Pods-WebPCSMode.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C0A2FCC185DD46FEBAFAD651 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B40EA7B4B3A31D1888EAB7A7 /* libPods-WebPCSMode.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -83,6 +117,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9C424141275F658E00822456 /* Build configuration list for PBXNativeTarget "WebPCSMode" */;
 			buildPhases = (
+				9A2C66FBB690CBC1F891B0CE /* [CP] Check Pods Manifest.lock */,
 				9C424124275F658D00822456 /* Sources */,
 				9C424125275F658D00822456 /* Frameworks */,
 				9C424126275F658D00822456 /* Resources */,
@@ -140,6 +175,31 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9A2C66FBB690CBC1F891B0CE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WebPCSMode-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		9C424124275F658D00822456 /* Sources */ = {
@@ -226,7 +286,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -279,7 +339,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -289,6 +349,7 @@
 		};
 		9C424142275F658E00822456 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A7F010C29DF0F21DA4D6039 /* Pods-WebPCSMode.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -315,6 +376,7 @@
 		};
 		9C424143275F658E00822456 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F24B621A49B4765B89BA3A54 /* Pods-WebPCSMode.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
