@@ -15,6 +15,7 @@
 		9C424138275F658E00822456 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C424137275F658E00822456 /* Assets.xcassets */; };
 		9C42413B275F658E00822456 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C424139275F658E00822456 /* LaunchScreen.storyboard */; };
 		9C42413E275F658E00822456 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C42413D275F658E00822456 /* main.m */; };
+		9C424147275F79A700822456 /* 111.webp in Resources */ = {isa = PBXBuildFile; fileRef = 9C424145275F66AC00822456 /* 111.webp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -171,6 +172,7 @@
 				9C42413B275F658E00822456 /* LaunchScreen.storyboard in Resources */,
 				9C424138275F658E00822456 /* Assets.xcassets in Resources */,
 				9C424136275F658D00822456 /* Main.storyboard in Resources */,
+				9C424147275F79A700822456 /* 111.webp in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
